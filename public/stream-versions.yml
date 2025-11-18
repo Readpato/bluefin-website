@@ -11,13 +11,6 @@ lts:
   nvidia: "580.105.08-1"
   hwe: "6.16.10-200.fc42"
 
-gts:
-  base: "Fedora 42"
-  gnome: "48.6-1"
-  kernel: "6.16.8-200"
-  mesa: "25.1.9-1"
-  nvidia: "580.95.05-1"
-
 stable:
   base: "Fedora 42"
   gnome: "48.6-1"

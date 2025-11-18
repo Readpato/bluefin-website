@@ -60,7 +60,6 @@
       "Question": "請選擇更新頻率",
       "DefaultSelection": "更新頻率",
       "Stable": "Bluefin（推薦給發燒友）",
-      "Gts": "Bluefin GTS（推薦給大部分人）",
       "LTS": "Bluefin LTS"
     },
     "Download": {

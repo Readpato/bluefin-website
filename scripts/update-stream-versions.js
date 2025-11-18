@@ -22,7 +22,6 @@ const REPOS = {
 // Base OS mapping for each stream
 const BASE_OS_MAP = {
   lts: "CentOS Stream 10",
-  gts: "Fedora 42",
   stable: "Fedora 42"
 }
 
@@ -166,20 +165,6 @@ async function updateStreamVersions() {
         mesa: ltsVersions.mesa,
         nvidia: ltsVersions.nvidia,
         hwe: ltsVersions.hwe
-      }
-    }
-
-    // Fetch GTS and Stable versions from main bluefin repo
-    const gtsRelease = await fetchLatestReleasesByStream(REPOS.main, "gts")
-    if (gtsRelease) {
-      console.log(`Found GTS release: ${gtsRelease.tag_name}`)
-      const gtsVersions = parseChangelogVersions(gtsRelease.body)
-      updates.gts = {
-        base: BASE_OS_MAP.gts,
-        gnome: gtsVersions.gnome,
-        kernel: gtsVersions.kernel,
-        mesa: gtsVersions.mesa,
-        nvidia: gtsVersions.nvidia
       }
     }
 

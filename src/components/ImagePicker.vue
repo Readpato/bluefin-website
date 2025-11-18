@@ -17,8 +17,8 @@ const imageName: Ref<{
   arch: "x86",
   base: "bluefin",
   gpu: undefined,
-  stream: "gts",
-  imagesrc: "./characters/intrigued.webp"
+  stream: "stable",
+  imagesrc: "./characters/leaping.webp"
 })
 
 const getFormattedImageName = () => {
@@ -51,9 +51,6 @@ const selectCuteDino = () => {
   switch (imageName.value.stream) {
     case "lts":
       target_image = "./characters/achillobator.webp"
-      break
-    case "gts":
-      target_image = "./characters/intrigued.webp"
       break
     case "stable":
       target_image = "./characters/leaping.webp"
@@ -192,9 +189,6 @@ const { t } = useI18n<MessageSchema>({
               </option>
               <option :value="'lts'">
                 {{ t("TryBluefin.Stream.LTS", { version: "10" }) }}
-              </option>
-              <option :value="'gts'" :disabled="imageName.arch == 'arm'">
-                {{ t("TryBluefin.Stream.Gts") }}
               </option>
               <option :value="'stable'" :disabled="imageName.arch == 'arm'">
                 {{ t("TryBluefin.Stream.Stable") }}
