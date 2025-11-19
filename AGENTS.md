@@ -13,6 +13,26 @@ This is the official website for **Project Bluefin**, a next-generation Linux wo
 - Strong focus on sustainability and community
 - Designed for both end users and developers
 
+## Quick Start (Verified Workflow)
+
+**For agents getting started, follow this exact sequence:**
+
+```bash
+# 1. Install dependencies (required: --include=dev flag)
+npm install --include=dev         # ~6s, installs 102 packages
+
+# 2. Start development server (use async mode)
+npm run dev                       # ~190ms, serves on http://localhost:5173/
+
+# 3. Build for production (optional verification)
+npm run build                     # ~1.7s, outputs to ./dist/
+
+# 4. Format code before committing
+npx prettier --write src/         # ~3-5s
+```
+
+**Verification:** After install, confirm `node_modules/@vitejs/plugin-vue` exists. After dev server starts, curl http://localhost:5173/ should return HTML with title "Bluefin | The Next Generation Linux Workstation".
+
 ## Working Effectively
 
 **Package Management:**
@@ -97,10 +117,11 @@ npx prettier --write src/ --config .prettierrc
 
 ## Common Commands and Timing
 
-- `npm install --include=dev`: ~6 seconds (REQUIRED to install devDependencies)
-- `npm run build`: ~2 seconds (**NEVER CANCEL**, timeout: 60+ seconds minimum)
-- `npm run dev`: ~1 second to start (use async mode to keep alive)
-- `npm run preview`: Instant start
+**Verified timings from fresh build (2025-11-19):**
+- `npm install --include=dev`: ~6 seconds (installs 102 packages, REQUIRED for devDependencies)
+- `npm run build`: ~1.7 seconds (outputs 8 assets + HTML files to ./dist/)
+- `npm run dev`: ~190ms to start (serves on http://localhost:5173/, use async mode)
+- `npm run preview`: Instant (serves ./dist/ on http://localhost:4173/)
 - `npx prettier --check src/`: ~3-5 seconds (may install prettier first run)
 
 **CRITICAL**: Always use `npm install --include=dev` to ensure @vitejs/plugin-vue and other dev dependencies are installed.
