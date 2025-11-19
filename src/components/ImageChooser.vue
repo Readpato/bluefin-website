@@ -25,7 +25,6 @@ interface VersionInfo {
 
 interface StreamVersions {
   lts: VersionInfo
-  gts: VersionInfo
   stable: VersionInfo
 }
 
@@ -67,24 +66,14 @@ const releases = [
     recommended: false
   },
   {
-    id: "gts",
-    title: "Bluefin GTS",
-    subtitle: "For Everyone",
-    description:
-      "A modern desktop with a relaxed update cadence. Pick this if you\'re not sure.",
-    image: "./characters/intrigued.webp",
-    supportedArch: ["x86"],
-    recommended: true
-  },
-  {
     id: "stable",
     title: "Bluefin",
-    subtitle: "For Enthusiasts",
+    subtitle: "For Everyone",
     description:
-      "Faster updates, the leading edge. You know what you\'re looking for.",
+      "A modern desktop with a relaxed update cadence. Pick this if you're not sure.",
     image: "./characters/leaping.webp",
     supportedArch: ["x86"],
-    recommended: false
+    recommended: true
   }
 ]
 
@@ -290,38 +279,38 @@ onMounted(() => {
                 >
                   <div class="version-item">
                     <span class="version-label">Base:</span>
-                    <span class="version-value">{{
+                    <span class="version-value">{{ 
                       streamVersions[release.id as keyof StreamVersions].base
                     }}</span>
                   </div>
                   <div class="version-item">
                     <span class="version-label">GNOME:</span>
-                    <span class="version-value">{{
+                    <span class="version-value">{{ 
                       streamVersions[release.id as keyof StreamVersions].gnome
                     }}</span>
                   </div>
                   <div class="version-item">
                     <span class="version-label">Kernel:</span>
-                    <span class="version-value">{{
+                    <span class="version-value">{{ 
                       streamVersions[release.id as keyof StreamVersions].kernel
                     }}</span>
                   </div>
                   <div v-if="release.id === 'lts'" class="version-item">
                     <span class="version-label">HWE Kernel:</span>
-                    <span class="version-value">{{
+                    <span class="version-value">{{ 
                       streamVersions[release.id as keyof StreamVersions].hwe
                     }}</span>
                   </div>
 
                   <div class="version-item">
                     <span class="version-label">MESA:</span>
-                    <span class="version-value">{{
+                    <span class="version-value">{{ 
                       streamVersions[release.id as keyof StreamVersions].mesa
                     }}</span>
                   </div>
                   <div class="version-item">
                     <span class="version-label">Nvidia:</span>
-                    <span class="version-value">{{
+                    <span class="version-value">{{ 
                       streamVersions[release.id as keyof StreamVersions].nvidia
                     }}</span>
                   </div>

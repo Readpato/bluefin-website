@@ -60,7 +60,6 @@
       "Question": "Wie häufig möchtest Du Updates? ",
       "DefaultSelection": "Update Stream auswählen",
       "Stable": "Bluefin (für Enthusiast:innen)",
-      "Gts": "Bluefin GTS (Empfohlen für die meisten Anwender:innen)",
       "LTS": "Bluefin LTS"
     },
     "Download": {

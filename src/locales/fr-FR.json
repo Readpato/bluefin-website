@@ -61,9 +61,9 @@
       "Iso": "Télécharger l’ISO",
       "Registry": "Voir les détails sur GitHub Container Registry",
       "Checksum": "Vérifier (SHA256)",
-      "DocumentationURL": "Consultez la [Documentation Bluefin](https://docs.projectbluefin.io/), cela prend environ 15 minutes et inclut un guide d’installation - préparez-vous au succès, vous entrez dans un nouveau monde. <br/><br/>Impossible de trouver ce que vous cherchez ? Vérifiez [la liste entière des installations](https://docs.projectbluefin.io/downloads/).<br/><br/>Si vous choisissez le secure boot pendant l'installation, le mot de passe est <code>universalblue</code> (en QWERTY).",
       "DeveloperNote": "Consultez [Introduction à Bluefin DX](https://docs.projectbluefin.io/bluefin-dx).",
-      "DollyChill": "Dolly se détend près de votre lien ISO"
+      "DollyChill": "Dolly se détend près de votre lien ISO",
+      "DocumentationURL": "Consultez la [Documentation Bluefin](https://docs.projectbluefin.io/), cela prend environ 15 minutes et inclut un guide d'installation - préparez-vous au succès, vous entrez dans un nouveau monde. <br/><br/>Impossible de trouver ce que vous cherchez ? Vérifiez [la liste entière des installations](https://docs.projectbluefin.io/downloads/).<br/><br/>Si vous choisissez le secure boot pendant l'installation, le mot de passe est <code>universalblue</code> (en QWERTY)."
     }
   },
   "NewsTitle": "Actualités",
