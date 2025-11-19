@@ -174,28 +174,23 @@ interface PoweredBy {
 }
 export const LangPoweredBy: PoweredBy[] = [
   {
-    imageUrl: "./brands/devpod.svg",
-    projectUrl: "https://devpod.sh/",
-    altText: "Devpod"
+    imageUrl: "/brands/bootc.svg",
+    projectUrl: "https://bootc-dev.github.io/",
+    altText: "bootc"
   },
   {
-    imageUrl: "./brands/chainguard.webp",
-    projectUrl: "https://www.chainguard.dev/",
-    altText: "Chainguard"
-  },
-  {
-    imageUrl: "./brands/podman.svg",
+    imageUrl: "/brands/podman.svg",
     projectUrl: "https://podman.io/",
     altText: "Podman"
   },
   {
-    imageUrl: "./brands/docker.svg",
+    imageUrl: "/brands/docker.svg",
     projectUrl: "https://www.docker.com/",
     altText: "Docker"
   },
   {
-    imageUrl: "./brands/bootc.svg",
-    projectUrl: "https://bootc-dev.github.io/",
-    altText: "bootc"
+    imageUrl: "/brands/chainguard.webp",
+    projectUrl: "https://www.chainguard.dev/",
+    altText: "Chainguard"
   }
 ]
