@@ -69,7 +69,7 @@ const fixupStreamHandling = () => {
   }
 }
 
-const BLUEFIN_DOWNLOAD_URL = "https://download.projectbluefin.io/%TEMPLATE%"
+const BLUEFIN_DOWNLOAD_URL = "https://projectbluefin.dev/%TEMPLATE%"
 
 import { useI18n } from "vue-i18n"
 import type { MessageSchema } from "../locales/schema"
