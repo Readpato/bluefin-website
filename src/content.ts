@@ -187,10 +187,63 @@ export const LangPoweredBy: PoweredBy[] = [
     imageUrl: "/brands/docker.svg",
     projectUrl: "https://www.docker.com/",
     altText: "Docker"
+  }
+]
+
+// Alumni companies
+export const LangAlumniCompanies: PoweredBy[] = [
+  {
+    imageUrl: "/brands/alumni/anchore.svg",
+    projectUrl: "https://anchore.com/",
+    altText: "Anchore"
   },
   {
-    imageUrl: "/brands/chainguard.webp",
+    imageUrl: "/brands/alumni/aws.svg",
+    projectUrl: "https://aws.amazon.com/",
+    altText: "Amazon Web Services (AWS)"
+  },
+  {
+    imageUrl: "/brands/alumni/canonical.svg",
+    projectUrl: "https://canonical.com/",
+    altText: "Canonical"
+  },
+  {
+    imageUrl: "/brands/alumni/chainguard.webp",
     projectUrl: "https://www.chainguard.dev/",
     altText: "Chainguard"
+  },
+  {
+    imageUrl: "/brands/alumni/cncf.svg",
+    projectUrl: "https://www.cncf.io/",
+    altText: "Cloud Native Computing Foundation (CNCF)"
+  },
+  {
+    imageUrl: "/brands/alumni/intel.svg",
+    projectUrl: "https://www.intel.com/",
+    altText: "Intel"
+  },
+  {
+    imageUrl: "/brands/alumni/microsoft.svg",
+    projectUrl: "https://www.microsoft.com/",
+    altText: "Microsoft"
+  },
+  {
+    imageUrl: "/brands/alumni/redhat.svg",
+    projectUrl: "https://www.redhat.com/",
+    altText: "Red Hat"
+  },
+  {
+    imageUrl: "/brands/alumni/vmware.svg",
+    projectUrl: "https://www.vmware.com/",
+    altText: "VMware"
+  }
+]
+
+// Sponsors
+export const LangSponsors: PoweredBy[] = [
+  {
+    imageUrl: "/brands/sponsors/cloudflare.svg",
+    projectUrl: "https://www.cloudflare.com/",
+    altText: "Cloudflare"
   }
 ]

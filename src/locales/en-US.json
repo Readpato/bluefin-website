@@ -104,7 +104,9 @@
   },
   "Flock": {
     "Title": "Our Flock",
-    "Description": "Bluefin is built by a dedicated group of maintainers and contributors."
+    "Description": "Bluefin is built by a dedicated group of maintainers and contributors.",
+    "AlumniTitle": "Featuring alumni from companies like",
+    "SponsorsTitle": "Our sponsors"
   },
   "Footer": {
     "Title": "Powered By",
