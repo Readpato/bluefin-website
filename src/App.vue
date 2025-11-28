@@ -6,6 +6,7 @@ import PageLoading from "./components/PageLoading.vue"
 import ParallaxWrapper from "./components/sections/ParallaxWrapper.vue"
 import SectionMission from "./components/sections/SectionMission.vue"
 import SectionQuestions from "./components/sections/SectionQuestions.vue"
+import SectionCommunity from "./components/sections/SectionCommunity.vue"
 import SceneDevelopers from "./components/scenes/SceneDevelopers.vue"
 import SceneLanding from "./components/scenes/SceneLanding.vue"
 import SceneUsers from "./components/scenes/SceneUsers.vue"
@@ -118,6 +119,7 @@ const { t } = useI18n<MessageSchema>({
         <SectionNews />
         <SectionPicker />
         <SectionQuestions />
+        <SectionCommunity />
         <SectionFooter />
         <Navigation />
       </div>
