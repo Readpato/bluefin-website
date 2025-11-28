@@ -62,7 +62,7 @@ const { t } = useI18n<MessageSchema>({
 }
 
 .bazaar-header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 60px;
 
   .title-apps {
