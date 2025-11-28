@@ -162,7 +162,7 @@ const { t } = useI18n<MessageSchema>({
 
   .contribute-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 40px;
     align-items: start;
 
