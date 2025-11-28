@@ -105,14 +105,15 @@ const { t } = useI18n<MessageSchema>({
     line-height: 1.6;
     color: var(--color-text-light);
     margin-bottom: 20px;
+  }
 
-    a {
-      color: var(--color-blue-light);
-      text-decoration: none;
+  :deep(a) {
+    color: var(--color-blue-light);
+    text-decoration: none;
+    font-weight: 700;
 
-      &:hover {
-        text-decoration: underline;
-      }
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
@@ -149,14 +150,15 @@ const { t } = useI18n<MessageSchema>({
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--color-text-light);
+  }
 
-    a {
-      color: var(--color-blue-light);
-      text-decoration: none;
+  :deep(a) {
+    color: var(--color-blue-light);
+    text-decoration: none;
+    font-weight: 700;
 
-      &:hover {
-        text-decoration: underline;
-      }
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
