@@ -41,7 +41,8 @@
     "AppendixText": "Project Bluefin is not a finished product, she is an ongoing passion project maintained by [cloud-native enthusiasts](https://github.com/ublue-os/bluefin/graphs/contributors) who seek a more reliable and maintainable Linux desktop experience. Check out the [open issues](https://github.com/ublue-os/bluefin/issues).\n\nShe represents the state of the art … a beautiful and unique creature. A perfect predator for a world that will inevitably face challenges. We must adapt. We can do it **together**."
   },
   "TryBluefin": {
-    "Title": "Try Bluefin",
+    "Tag": "Try",
+    "Title": "Bluefin",
     "Description": "Choose your raptor for your hardware and use case. The team recommends [Fedora Media Writer](https://flathub.org/apps/org.fedoraproject.MediaWriter) to create installation media, Ventoy is unsupported. Check [the documentation](https://docs.projectbluefin.io) for more information.\n\n\nBluefin receives timely security updates and is available in two different streams that reflect how aggressively it receives feature updates:\n\n",
     "Architecture": {
       "Question": "Which architecture will you install Bluefin on? Older BIOS-based systems are unsupported",
