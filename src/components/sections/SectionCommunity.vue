@@ -57,6 +57,12 @@ const { t } = useI18n<MessageSchema>({
                 </span>
                 <span class="button-label">{{ t("Community.Contribute.Button") }}</span>
               </a>
+              <a class="community-button" href="https://docs.projectbluefin.io/donations" target="_blank">
+                <span class="button-icon">
+                  <i class="fas fa-heart" aria-hidden="true"></i>
+                </span>
+                <span class="button-label">{{ t("Community.Contribute.DonateButton") }}</span>
+              </a>
             </div>
           </div>
           <div class="contrib-image">
