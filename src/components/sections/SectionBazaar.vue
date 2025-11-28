@@ -133,7 +133,8 @@ const { t } = useI18n<MessageSchema>({
 .bazaar-icon {
   position: absolute;
   bottom: -20px;
-  right: -20px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 64px !important;
   height: 64px !important;
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
