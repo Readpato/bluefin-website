@@ -13,7 +13,7 @@ const rightNavLinks = [
   { name: "Blog", href: "https://docs.projectbluefin.io/blog" },
   { name: "Changelog", href: "https://docs.projectbluefin.io/changelogs" },
   {
-    name: "Community",
+    name: "Discussions",
     href: "https://github.com/ublue-os/bluefin/discussions",
     external: true
   },
