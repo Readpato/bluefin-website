@@ -102,7 +102,7 @@ npx prettier --write src/         # ~3-5s
 # Check formatting issues
 npx prettier --check src/ --config .prettierrc
 
-# Fix formatting issues  
+# Fix formatting issues
 npx prettier --write src/ --config .prettierrc
 ```
 - Prettier configuration in `.prettierrc` includes: tabWidth: 2, singleQuote: false, semi: false, quote-props: "consistent"
@@ -213,7 +213,7 @@ Large page sections that typically include:
 ```vue
 <script setup lang="ts">
 // Imports
-import { ref, computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 // Props and emits (if needed)
@@ -232,7 +232,7 @@ const isVisible = ref(false)
   <!-- Template with semantic HTML -->
   <section class="component-name">
     <h2>{{ t('Section.Title') }}</h2>
-  </template>
+  </section>
 </template>
 ```
 
@@ -289,11 +289,11 @@ export const LangSectionTitle = 'Default English Text'
 Common mixins available for use:
 
 ```scss
-@include flex($gap, $justify, $align, $direction, $wrap)  // Flexbox layouts
-@include grid($gap, $columns)                             // Grid layouts
-@include t($time, $type)                                  // Transitions
-@include noselect()                                       // Disable text selection
-@include noscrollbar()                                    // Hide scrollbars
+@include flex($gap, $justify, $align, $direction, $wrap) // Flexbox layouts
+  @include grid($gap, $columns) // Grid layouts
+  @include t($time, $type) // Transitions
+  @include noselect() // Disable text selection
+  @include noscrollbar(); // Hide scrollbars
 ```
 
 ### TailwindCSS Integration
